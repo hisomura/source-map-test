@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "index.org.js"
+  ],
+  "names": [],
+  "mappings": "AAAA,4BACA,yBACA,6DACA,8CACA,4BACA,mCACA",
+  "file": "index.org.js",
+  "sourcesContent": [
+    "console.log(\"hello, world\");\nconst today = new Date();\nconst message = `Hello, world! It's ${today.toDateString()}`;\nconst element = document.createElement(\"div\");\nelement.innerHTML = message;\ndocument.body.appendChild(element);\n"
+  ]
+}
